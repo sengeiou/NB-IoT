@@ -1,10 +1,8 @@
----
-title: 电信NB-IoT的北向平台开发 
-grammar_cjkRuby: true
----
+
+#电信NB-IoT的北向平台开发 
 
 该项目是基于Spring-boot框架的电信平台NB-IoT北向应用开发工程
-#
+
 
  
 
