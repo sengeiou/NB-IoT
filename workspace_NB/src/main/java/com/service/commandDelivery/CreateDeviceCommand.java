@@ -41,8 +41,8 @@ public class CreateDeviceCommand {
         String appId = Constant.APPID;
         String callbackUrl = Constant.REPORT_CMD_EXEC_RESULT_CALLBACK_URL;
 
-        //please replace the deviceId, when you call this interface.
-        String deviceId = "3ed1392d-a6ed-470b-897b-c4769f84f5be";
+        //由电信平台提供deviceID
+        String deviceId = "********-****-****-****-********";
         //please replace the following parameter values as required, when you call this interface.
         Integer expireTime = 0;
         Integer maxRetransmit = 3;

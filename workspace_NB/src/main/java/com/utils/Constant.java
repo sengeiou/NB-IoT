@@ -17,14 +17,14 @@ public class Constant {
     //please replace the IP and Port of the IoT platform environment address, when you use the demo.
     public static final String BASE_URL = "https://180.101.147.89:8743";
 
-    //please replace the appId and secret, when you use the demo.
-    public static final String APPID = "x83fWxagroaVdf4E_v7bALUo7RAa";
-    public static final String SECRET = "NdfZzUQDpzk7fuMqg2Cm6JMywdYa";
+    //修改以下两个参数，由电信平台提供.
+    public static final String APPID = "**********************";
+    public static final String SECRET = "**********************";
     /*
      *IP and port of callback url.
-     *please replace the IP and Port of your Application deployment environment address, when you use the demo.
+     *请将这个url改成你的云服务器网址
      */
-    public static final String CALLBACK_BASE_URL = "http://139.199.61.77:8080";
+    public static final String CALLBACK_BASE_URL = "http://***.***.***.***:****";
 
     /*
      * complete callback url.

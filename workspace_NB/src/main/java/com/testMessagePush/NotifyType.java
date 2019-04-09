@@ -5,8 +5,8 @@ import java.util.List;
 
 public class NotifyType {
 
-    //please replace the IP and Port to your localhost IP and port, when you use the testMessagePush.
-    public static final String TEST_CALLBACK_BASE_URL = "http://139.199.61.77:8133";
+    //将你的电信平台url填写至此，并使用socket进行测试通讯
+    public static final String TEST_CALLBACK_BASE_URL = "http://***.***.***.***:****";
 
     public static List<String> notifyTypes = new ArrayList<>();
     public static List<String> getServiceNotifyTypes () {
